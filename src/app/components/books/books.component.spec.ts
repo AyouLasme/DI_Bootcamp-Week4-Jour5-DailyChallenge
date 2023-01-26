@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RSearchComponent } from './r-search.component';
+import { BooksComponent } from './books.component';
 
-describe('RSearchComponent', () => {
-  let component: RSearchComponent;
-  let fixture: ComponentFixture<RSearchComponent>;
+describe('BooksComponent', () => {
+  let component: BooksComponent;
+  let fixture: ComponentFixture<BooksComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RSearchComponent ]
+      declarations: [ BooksComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RSearchComponent);
+    fixture = TestBed.createComponent(BooksComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
